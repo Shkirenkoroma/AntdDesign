@@ -1,2 +1,2 @@
 
-#### https://shkirenkoroma.github.io/AntdDesign/
+#### Live-версия проекта доступна по ссылке https://shkirenkoroma.github.io/AntdDesign/
