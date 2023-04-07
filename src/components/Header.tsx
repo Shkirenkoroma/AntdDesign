@@ -3,7 +3,7 @@ import { PageHeader } from '@ant-design/pro-layout';
 const Header = () => {
 	return (
 		<>
-			<PageHeader />
+			<PageHeader title='Antd Design'/>
          <Divider />
 		</>
 	);
