@@ -1,4 +1,4 @@
-import { Table, Typography } from "antd";
+import { Image, Table, Typography } from "antd";
 import { pokemons } from "../data";
 
 const columns = [
@@ -41,10 +41,24 @@ const columns = [
 		key: "fleeRate",
 		sorter: (a: any, b: any) => a.fleeRate - b.fleeRate,
 	},
+	{
+		title: "Image",
+		dataIndex: "image",
+		key: "image",
+		render: (image: any) => <Image src={image} alt="pokemon" width={200} />,
+	},
 ];
 
+const dataSource = pokemons.map((item: any) => ({ ...item, key: item.id }));
+
 const _Table = () => {
-	return <Table dataSource={pokemons} columns={columns} />;
+	return (
+		<Table
+			dataSource={dataSource}
+			columns={columns}
+			pagination={{ showSizeChanger: true, pageSizeOptions: [5, 10, 15, 20] }}
+		/>
+	);
 };
 
 export default _Table;
