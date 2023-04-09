@@ -1,14 +1,16 @@
-import "./App.css";
-import Header from "./components/Header";
-import Table from "./components/Table";
-import { Row, Col } from "antd";
+import { Row, Col } from 'antd';
+import { FC } from 'react';
 
-const App = () => {
+import Header from './components/Header';
+import Table from './components/Table';
+
+const App: FC = (): JSX.Element => {
+	
 	return (
 		<>
 			<Header />
 			<Row>
-				<Col xs={24} md={{span:12, offset:6}}>
+				<Col xs={24} md={{ span: 10, offset: 7 }}>
 					<Table />
 				</Col>
 			</Row>
