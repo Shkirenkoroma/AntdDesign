@@ -1,5 +1,5 @@
+#### Live-версия проекта доступна по ссылке: https://shkirenkoroma.github.io/AntdDesign/
 
-#### Live-версия проекта доступна по ссылке https://shkirenkoroma.github.io/AntdDesign/
 Главный акцент данного проекта ставился на использование библиотеки для стилизации Antd
 ![image](https://user-images.githubusercontent.com/61347452/230768525-cfceacf6-12de-4fbf-8ad9-ba1db8125219.png)
 Реализована возможность копировать данные 
